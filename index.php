@@ -12,10 +12,11 @@ kanál</a>";*/
 
 //alebo pomocou escapovania pred uvodzovky pravy alt+Q
 echo "<a href=\"https://www.youtube.com/@RIDERUN-yd2li\" target=\"_blank\">Môj Youtube kanál</a> ";
-
+echo "<br>";
+echo "<br>";
 // Odkaz interny
 
-
+echo "<a href=\"kontakt.php\">kontakt php</a>"
 
 
 // jednoriadkovy komentar v php
