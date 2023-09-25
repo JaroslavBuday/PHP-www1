@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>kontakt</h1>
+    <a href="index.php">ísť späť</a>
 </body>
 </html>
