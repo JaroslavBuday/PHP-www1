@@ -1,6 +1,6 @@
 <?php
 
-// odkaz 
+// odkaz Externy
 
 //chybny zapis dvojite uvodzovky viackrat
 /*
@@ -12,6 +12,9 @@ kanál</a>";*/
 
 //alebo pomocou escapovania pred uvodzovky pravy alt+Q
 echo "<a href=\"https://www.youtube.com/@RIDERUN-yd2li\" target=\"_blank\">Môj Youtube kanál</a> ";
+
+// Odkaz interny
+
 
 
 
