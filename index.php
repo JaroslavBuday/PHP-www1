@@ -1,4 +1,15 @@
 <?php
+
+// odkaz 
+
+echo "<a href="https://www.youtube.com/@RIDERUN-yd2li">Môj youtube kanál</a>";
+
+
+
+
+
+
+
 // jednoriadkovy komentar v php
 # prikaz echo a vypis do stranky:
 //  echo "Prikaz echo vypise do stranky text";
@@ -55,7 +66,7 @@
         
     </header>
     <main>
-        <a href="https://www.youtube.com/@RIDERUN-yd2li">Môj youtube kanál</a>
+        
     </main>
     <footer>
 
