@@ -1,3 +1,12 @@
+<?php
+ echo "Prikaz echo vypise do stranky text";
+echo "<br>";
+echo "vypisuje aj html kody";
+echo "<br>";
+echo 666;
+?>
+
+
 <!DOCTYPE html>
 <html lang="sk">
 <head>
@@ -7,7 +16,7 @@
 </head>
 <body>
     <header>
-
+        
     </header>
     <main>
 
