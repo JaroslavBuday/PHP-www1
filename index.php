@@ -6,7 +6,13 @@ echo "<br>";
 echo "vypisuje aj html kody";
 echo "<br>";
 echo 666;
+echo "<br>";
 
+var_dump("prikaz vardump");
+echo "<br>";
+var_dump(100);
+echo "<br>";
+var_dump(5.8);
 /*
  viacriadkovy komentar 
 */
