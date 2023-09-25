@@ -1,9 +1,15 @@
 <?php
+// jednoriadkovy komentar v php
+# prikaz echo a vypis do stranky:
  echo "Prikaz echo vypise do stranky text";
 echo "<br>";
 echo "vypisuje aj html kody";
 echo "<br>";
 echo 666;
+
+/*
+ viacriadkovy komentar 
+*/
 ?>
 
 
