@@ -17,10 +17,17 @@ echo "<br>";
 /*
  viacriadkovy komentar 
 */
+
 $school = "Bradavice"; //premenna
 echo($school);  // vypis iba premennej
 echo "<br>";
 echo("Škola: $school") // vypis premenna a text
+
+// pravidla premennej
+// velke a male pismena
+// na zaciatku nesmie byt cislo ani znak
+// viacslovne oddelovat podtrznikom napr school_name takzv. snake_case
+// pomlcky nesmu oddelovat
 
 ?>
 
