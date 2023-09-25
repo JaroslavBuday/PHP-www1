@@ -2,11 +2,16 @@
 
 // odkaz 
 
-echo "<a href="https://www.youtube.com/@RIDERUN-yd2li">Môj youtube kanál</a>";
+//chybny zapis dvojite uvodzovky viackrat
+/*
+echo "<a href="https://www.youtube.com/@RIDERUN-yd2li">Môj youtube 
+kanál</a>";*/
 
+// opravene pomocou zmeny uvodzoviek  alt+39
+/*echo '<a href="https://www.youtube.com/@RIDERUN-yd2li">Môj youtube kanál</a>';*/
 
-
-
+//alebo pomocou escapovania pred uvodzovky pravy alt+Q
+echo "<a href=\"https://www.youtube.com/@RIDERUN-yd2li\">Môj youtube kanál</a>";
 
 
 
