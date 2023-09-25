@@ -13,9 +13,15 @@ echo "<br>";
 var_dump(100);
 echo "<br>";
 var_dump(5.8);
+echo "<br>";
 /*
  viacriadkovy komentar 
 */
+$school = "Bradavice"; //premenna
+echo($school);  // vypis iba premennej
+echo "<br>";
+echo("Škola: $school") // vypis premenna a text
+
 ?>
 
 
