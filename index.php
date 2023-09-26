@@ -16,8 +16,11 @@ echo "<br>";
 echo "<br>";
 // Odkaz interny
 
-echo "<a href=\"kontakt.php\">kontakt php</a>"
+echo "<a href=\"kontakt.php\">kontakt php</a>";
 
+
+$salary = null;
+echo $salary;
 
 // jednoriadkovy komentar v php
 # prikaz echo a vypis do stranky:
