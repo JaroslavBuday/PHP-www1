@@ -1,38 +1,30 @@
 <?php
-// Asociativne Pole 
+// Dvojdimenzionalne Pole (pole v poli)
 
 $Students = [
-    "jedna" => "Harry", // pridelenie indexu string
-    "šesť" => "Ron", 
-    "sedem" => "Hermiona"  // hermiona ma nasledujuci index tj.sedem
-];    
-
-
-var_dump($Students);
+    [
+        "first_name" => "Harry",
+        "second_name" => "Potter",
+        "age" => 15
+    ],
+    [
+        "first_name" => "Hermiona",
+        "second_name" => "Grangerova",
+        "age" => 14
+    ],
+    [
+        "first_name" => "Ron",
+        "second_name" => "Weasley",
+        "age" => 15
+    ]
+];  
+// vypisanie   udajov
+echo $Students[0]["first_name"];
 echo "<br>";
-
+echo $Students[2]["second_name"];
 echo "<br>";
-echo $Students["jedna"];
+echo $Students[1]["age"];
 echo "<br>";
-echo $Students["šesť"];
-echo "<br>";
-echo $Students["sedem"];
-echo "<br>";
-
-// priklad pouzitia
-$name = "Harry";
-$second_name = "Potter";
-
-$student1 = [
-    "first_name" => $name,
-    "second_name" => $second_name,
-    "college" => "Nebelvir",
-    "age" => 15,
-    "result" => null
-];
-
-echo $student1["first_name"];
-
 
 
 ?>
