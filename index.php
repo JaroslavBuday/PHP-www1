@@ -20,15 +20,18 @@ echo $Students["sedem"];
 echo "<br>";
 
 // priklad pouzitia
+$name = "Harry";
+$second_name = "Potter";
 
 $student1 = [
-    "first_name" => "Harry",
-    "second_name" => "Potter",
+    "first_name" => $name,
+    "second_name" => $second_name,
     "college" => "Nebelvir",
-    "age" => 15
+    "age" => 15,
+    "result" => null
 ];
 
-echo $student1["college"];
+echo $student1["first_name"];
 
 
 
