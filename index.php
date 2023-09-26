@@ -1,11 +1,21 @@
 <?php
+// Pole (array)
 
-// datove typy
+$Students = ["Harry", "Ron", "Hermiona"];
 
-$main_name = "bradavice";  // text = string
-$students_count = 780; // cele cislo = integer
-$grade_point_average = 3.4;  //desatinne cislo = float
-$adult = false;  // pravdivostna hodnota = boolean
+var_dump($Students);
+echo "<br>";
+var_dump($Students[0]);
+echo "<br>";
+echo $Students[0];
+echo "<br>";
+echo $Students[1];
+echo "<br>";
+echo $Students[2];
+
+
+
+
 
 ?>
 
