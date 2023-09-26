@@ -1,7 +1,8 @@
 <?php
 // Pole (array)
 
-$Students = ["Harry", "Ron", "Hermiona"];
+$Students = ["Harry", "Ron", "Hermiona"];     // moderny vypis 
+$Students2 = array("Harry","Hermiona","Ron"); //starsi zapis pola
 
 var_dump($Students);
 echo "<br>";
