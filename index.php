@@ -5,11 +5,17 @@ $Students = ["Harry","Hermiona","Ron"];
 
 // vypisanie   udajov
 
-foreach ($Students as $one_student){
-    echo "<h3>$one_student</h3>";
+foreach ($Students as $index => $one_student){
+    // $index = $index +1;  
+    // $index += 1;
+    $index++; // predosle moznosti sa mozu zvysovat aj o ine cisla
+    echo $index.". ".$one_student;     
     echo "<br>";
-    echo "<p>$one_student</p>";  
 }
+
+
+
+
 
 ?>
 <p></p>
