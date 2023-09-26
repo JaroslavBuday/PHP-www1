@@ -17,6 +17,9 @@ echo "Súčin: $result3 ";
 echo "<br>";
 echo "Deleno: $result4 ";
 echo "<br>";
+
+echo $result1." ".$result2;
+// spojovanie premennych pomocou bodky . a medzeru vkladat do uvodzoviek 
 ?>
 
 
