@@ -1,18 +1,22 @@
 <?php
 // Pole (array)
 
-$Students = ["Harry", "Ron", "Hermiona"];     // moderny vypis 
-$Students2 = array("Harry","Hermiona","Ron"); //starsi zapis pola
+$Students = [
+    1 => "Harry", // pridelenie indexu 1
+    4 => "Ron", 
+    "Hermiona"  // hermiona ma nasledujuci index tj.č5
+];    
+
 
 var_dump($Students);
 echo "<br>";
-var_dump($Students[0]);
+
 echo "<br>";
-echo $Students[0];
+echo $Students[4];
 echo "<br>";
 echo $Students[1];
 echo "<br>";
-echo $Students[2];
+echo $Students[5];
 
 
 
