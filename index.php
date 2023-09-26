@@ -1,34 +1,18 @@
 <?php
-// Dvojdimenzionalne Pole (pole v poli)
+// Cyklus ForEach
 
-$Students = [
-    [
-        "first_name" => "Harry",
-        "second_name" => "Potter",
-        "age" => 15
-    ],
-    [
-        "first_name" => "Hermiona",
-        "second_name" => "Grangerova",
-        "age" => 14
-    ],
-    [
-        "first_name" => "Ron",
-        "second_name" => "Weasley",
-        "age" => 15
-    ]
-];  
+$Students = ["Harry","Hermiona","Ron"];  
+
 // vypisanie   udajov
-echo $Students[0]["first_name"];
-echo "<br>";
-echo $Students[2]["second_name"];
-echo "<br>";
-echo $Students[1]["age"];
-echo "<br>";
 
+foreach ($Students as $one_student){
+    echo "<h3>$one_student</h3>";
+    echo "<br>";
+    echo "<p>$one_student</p>";  
+}
 
 ?>
-
+<p></p>
 
 <!DOCTYPE html>
 <html lang="sk">
