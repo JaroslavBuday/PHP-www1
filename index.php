@@ -1,25 +1,12 @@
 <?php
-// matematicke operacie
 
-$students_2022 = 100;
-$students_2023 = 89;
+// datove typy
 
-$result1 = $students_2022 - $students_2023;
-$result2 = $students_2022 + $students_2023;
-$result3 = $students_2022 * $students_2023;
-$result4 = $students_2022 / $students_2023;
+$main_name = "bradavice";  // text = string
+$students_count = 780; // cele cislo = integer
+$grade_point_average = 3.4;  //desatinne cislo = float
+$adult = false;  // pravdivostna hodnota = boolean
 
-echo "Rozdiel: $result1 ";
-echo "<br>";
-echo "Súčet: $result2 ";
-echo "<br>";
-echo "Súčin: $result3 ";
-echo "<br>";
-echo "Deleno: $result4 ";
-echo "<br>";
-
-echo $result1." ".$result2;
-// spojovanie premennych pomocou bodky . a medzeru vkladat do uvodzoviek 
 ?>
 
 
