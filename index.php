@@ -1,10 +1,10 @@
 <?php
-// Pole (array)
+// Asociativne Pole 
 
 $Students = [
-    1 => "Harry", // pridelenie indexu 1
-    4 => "Ron", 
-    "Hermiona"  // hermiona ma nasledujuci index tj.č5
+    "jedna" => "Harry", // pridelenie indexu string
+    "šesť" => "Ron", 
+    "sedem" => "Hermiona"  // hermiona ma nasledujuci index tj.sedem
 ];    
 
 
@@ -12,13 +12,23 @@ var_dump($Students);
 echo "<br>";
 
 echo "<br>";
-echo $Students[4];
+echo $Students["jedna"];
 echo "<br>";
-echo $Students[1];
+echo $Students["šesť"];
 echo "<br>";
-echo $Students[5];
+echo $Students["sedem"];
+echo "<br>";
 
+// priklad pouzitia
 
+$student1 = [
+    "first_name" => "Harry",
+    "second_name" => "Potter",
+    "college" => "Nebelvir",
+    "age" => 15
+];
+
+echo $student1["college"];
 
 
 
