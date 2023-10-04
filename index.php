@@ -3,12 +3,15 @@
 // cyklus for - kolkokrat sa ma cyklus vykonat
 // cyklus while - nevieme kolkokrat 
 
-$month = 1;
+$test_questions = ["1.otázka","2.otázka","3.otázka","4.otázka","5.otázka"];
 
-while($month <= 12){
-    echo $month;
+$maximum = 3;
+$counter = 0;
+
+while($counter < $maximum){
+    echo $test_questions[$counter];
     echo "<br>";
-    $month = $month + 1;
+    $counter++;
 };
 
 
