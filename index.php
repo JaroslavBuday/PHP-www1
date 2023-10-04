@@ -1,19 +1,12 @@
 <?php
-// Cyklus ForEach - na pracu s polom
-// cyklus for - kolkokrat sa ma cyklus vykonat
-// cyklus while - nevieme kolkokrat 
-
-$test_questions = ["1.otázka","2.otázka","3.otázka","4.otázka","5.otázka"];
-
-$maximum = 3;
-$counter = 0;
-
-while($counter < $maximum){
-    echo $test_questions[$counter];
-    echo "<br>";
-    $counter++;
-};
-
+// podmienky
+// = priradenie, == rovna sa?, === kontroluje aj datovy typ string/int
+// != nerovna sa 
+if (5!=5){
+    echo "ano je to pravda";
+    } else {
+        echo "nie je to pravda"; 
+    }
 
 
 
@@ -23,7 +16,7 @@ while($counter < $maximum){
 
 
 ?>
-<p></p>
+
 
 <!DOCTYPE html>
 <html lang="sk">
