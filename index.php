@@ -1,6 +1,6 @@
 <?php
 // Cyklus ForEach - na pracu s polom
-// cyklus for
+// cyklus for - kolkokrat sa ma cyklus vykonat
 
 for ($i = 0; $i <= 10; $i++){
     echo $i.". Harry";
