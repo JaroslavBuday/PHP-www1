@@ -1,17 +1,14 @@
 <?php
 // Cyklus ForEach - na pracu s polom
 // cyklus for - kolkokrat sa ma cyklus vykonat
-
-for ($i = 0; $i <= 10; $i++){
-    echo $i.". Harry";
-    echo "<br>";
+// uloha vypis 10x odstavec harry potter
+for ($i = 1; $i <= 10; $i++){
+    echo $i.". <p>Harry Potter</p>";
+    
 }
 echo "<br>";
 
-for ($i = 20; $i >= 1; $i--){
-    echo $i.". Harry";
-    echo "<br>";
-}
+
 
 
 
