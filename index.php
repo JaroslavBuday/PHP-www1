@@ -2,10 +2,13 @@
 // podmienky
 // = priradenie, == rovna sa?, === kontroluje aj datovy typ string/int
 // != nerovna sa 
-if (5!=5){
-    echo "ano je to pravda";
+
+$college = "nebelvir";
+
+if ($college === "zmijozel"){
+    echo "môžete vstúpiť";
     } else {
-        echo "nie je to pravda"; 
+        echo "nemáte oprávnenie na vstup"; 
     }
 
 
