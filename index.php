@@ -2,9 +2,12 @@
 // Cyklus ForEach - na pracu s polom
 // cyklus for - kolkokrat sa ma cyklus vykonat
 // uloha vypis 10x odstavec harry potter
-for ($i = 1; $i <= 10; $i++){
-    echo $i.". <p>Harry Potter</p>";
-    
+// priklad pouziatia v praxi
+
+for ($i = 1; $i <= 5; $i++){
+    echo "<a href=\"stranka$i.php\">Ďalšia stránka $i</a>";
+    // presmerovanie je nefunkcne stranky som zbytocne nevytvaral
+    echo "<br>";
 }
 echo "<br>";
 
