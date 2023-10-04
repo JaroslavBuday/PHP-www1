@@ -1,15 +1,16 @@
 <?php
 // Cyklus ForEach - na pracu s polom
 // cyklus for - kolkokrat sa ma cyklus vykonat
-// uloha vypis 10x odstavec harry potter
-// priklad pouziatia v praxi
+// cyklus while - nevieme kolkokrat 
 
-for ($i = 1; $i <= 5; $i++){
-    echo "<a href=\"stranka$i.php\">Ďalšia stránka $i</a>";
-    // presmerovanie je nefunkcne stranky som zbytocne nevytvaral
+$month = 1;
+
+while($month <= 12){
+    echo $month;
     echo "<br>";
-}
-echo "<br>";
+    $month = $month + 1;
+};
+
 
 
 
