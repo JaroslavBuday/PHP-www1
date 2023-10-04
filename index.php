@@ -13,7 +13,18 @@ foreach ($Students as $index => $one_student){
     echo "<br>";
 }
 
+// vypis z asociativneho pola
+$student1 = [
+    "meno: " => "Harry",
+    "priezvisko: " => "Potter",
+    "vek: " => 15
+];
 
+echo "<br>";
+foreach ($student1 as $index => $one_information){
+    echo $index.$one_information;
+    echo "<br>";
+}
 
 
 
