@@ -3,20 +3,22 @@
 // = priradenie, == rovna sa?, === kontroluje aj datovy typ string/int
 // != nerovna sa 
 
-$college = "nebelvir";
+// empty
 
-if ($college === "zmijozel"){
-    echo "môžete vstúpiť";
-    } else {
-        echo "nemáte oprávnenie na vstup"; 
-    }
+$articles = [];
 
+// var_dump(empty($articles));
 
+if (empty($articles)) {
+    echo "neexistuju ziadne clanky";
+    exit();
+} 
 
+// vypisanie clanku z databazy
+echo "<br>";
+echo "ďalší kód na stránke";
 
-
-
-
+// video 37
 
 ?>
 
