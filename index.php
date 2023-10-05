@@ -3,22 +3,22 @@
 // = priradenie, == rovna sa?, === kontroluje aj datovy typ string/int
 // != nerovna sa 
 
-// empty
+// elseif
 
-$articles = [];
+$hour = 9;
+$message = null;
 
-// var_dump(empty($articles));
+if ($hour < 10) {
+    $message = "Dobré ráno";
+} elseif($hour <18) {
+    $message = "Dobrý deň";
+} else {
+    $message = "Dobrý večer";
+}
 
-if (empty($articles)) {
-    echo "neexistuju ziadne clanky";
-    exit();
-} 
+echo $message;
 
-// vypisanie clanku z databazy
-echo "<br>";
-echo "ďalší kód na stránke";
-
-// video 37
+// video 38
 
 ?>
 
