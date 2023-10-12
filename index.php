@@ -3,17 +3,17 @@
 // = priradenie, == rovna sa?, === kontroluje aj datovy typ string/int
 // != nerovna sa 
 
-// elseif
+// Logicke operatory and a or
 
-$hour = 9;
+$age = 69;
 $message = null;
 
-if ($hour < 10) {
-    $message = "Dobré ráno";
-} elseif($hour <18) {
-    $message = "Dobrý deň";
+if ($age >= 18 and $age < 65) {
+    $message = "Dospelý, nie je v dôchodovom veku";
+} elseif($age <18) {
+    $message = "Mládež";
 } else {
-    $message = "Dobrý večer";
+    $message = "Dôchodca";
 }
 
 echo $message;
