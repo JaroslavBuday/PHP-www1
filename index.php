@@ -4,22 +4,21 @@
 // != nerovna sa 
 
 // Logicke operatory and a or
-
-$age = 69;
+$password = 12345;
 $message = null;
 
-if ($age >= 18 and $age < 65) {
-    $message = "Dospelý, nie je v dôchodovom veku";
-} elseif($age <18) {
-    $message = "Mládež";
+if ($password === 12345 or $password === 24565) {
+    $message = "Dvere sa otvárajú môžete vstúpiť";
 } else {
-    $message = "Dôchodca";
+    $message = "Neplatný kód. Skúste to prosím znovu";
 }
-
 echo $message;
 
-// video 38
-
+// and - a zároveň              or - alebo
+// true, true = true            true, true = true
+// true, false = false          true, false = true
+// false, true = false          false, true = true
+// false, false = false         false, false = false
 ?>
 
 
