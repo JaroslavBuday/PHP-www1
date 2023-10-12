@@ -1,24 +1,36 @@
 <?php
-// podmienky
-// = priradenie, == rovna sa?, === kontroluje aj datovy typ string/int
-// != nerovna sa 
+// switch statement
 
-// Logicke operatory and a or
-$password = 12345;
-$message = null;
+$day = "ul";
 
-if ($password === 12345 or $password === 24565) {
-    $message = "Dvere sa otvárajú môžete vstúpiť";
-} else {
-    $message = "Neplatný kód. Skúste to prosím znovu";
-}
-echo $message;
+switch($day) {
+    case "po":
+        echo "pondelok";
+        break;
+    case "ut":
+        echo "utorok";
+        break;
+    case "st":
+        echo "streda";
+        break;
+    case "št":
+        echo "štvrtok";
+        break;
+    case "pi":
+        echo "piatok";
+        break;
+    case "so":
+        echo "sobota";
+        break;   
+    case "ne":
+        echo "nedela";
+        break;   
+    default:
+        echo "Zle zadaná skratka dňa";
+        break;
+} 
+// video41
 
-// and - a zároveň              or - alebo
-// true, true = true            true, true = true
-// true, false = false          true, false = true
-// false, true = false          false, true = true
-// false, false = false         false, false = false
 ?>
 
 
