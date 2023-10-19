@@ -1,36 +1,7 @@
 <?php
-// switch statement
+// prepojenie s HTML
 
-$day = "ul";
-
-switch($day) {
-    case "po":
-        echo "pondelok";
-        break;
-    case "ut":
-        echo "utorok";
-        break;
-    case "st":
-        echo "streda";
-        break;
-    case "št":
-        echo "štvrtok";
-        break;
-    case "pi":
-        echo "piatok";
-        break;
-    case "so":
-        echo "sobota";
-        break;   
-    case "ne":
-        echo "nedela";
-        break;   
-    default:
-        echo "Zle zadaná skratka dňa";
-        break;
-} 
-// video41
-
+// video
 ?>
 
 
@@ -46,6 +17,19 @@ switch($day) {
         
     </header>
     <main>
+        <section>
+            <h1>Formular</h1>
+            <form>
+                <input type="text" name="first_name" placeholder="Meno"><br>
+                <input type="text" name="second_name" placeholder="Priezvisko"><br>
+                <input type="password" name="password" placeholder="Heslo"><br>
+                <input type="email" name="email" placeholder="E-mail"><br>
+                <input type="date" name="date"><br>
+                <input type="hidden" name="form-type" value="kontakt">
+                <button>Odoslať</button>
+
+            </form>
+        </section>
         
     </main>
     <footer>
