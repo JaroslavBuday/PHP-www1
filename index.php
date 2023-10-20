@@ -31,7 +31,8 @@
                     <optgroup label="Matná farba">
                         <option value="red">červená</option>
                         <option value="green">Zelená</option>
-                        <option value="yellow">Žltá</option>
+                        <option value="yellow" selected>Žltá</option>
+                        <!-- selected vyberie co ma byt ako nahladova moznost -->
                     </optgroup>
                     <optgroup label="Lesklá farba">
                         <option value="red2">červená</option>
