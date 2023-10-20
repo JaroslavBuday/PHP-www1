@@ -27,10 +27,18 @@
                 <input type="date" name="date"><br>
                 <input type="hidden" name="form-type" value="kontakt">
                 <textarea name="message" placeholder="Vaša správa" ></textarea><br>
-                <select name="color[]" multiple >
-                    <option value="red">červená</option>
-                    <option value="green">Zelená</option>
-                    <option value="yellow">Žltá</option>
+                <select name="color">
+                    <optgroup label="Matná farba">
+                        <option value="red">červená</option>
+                        <option value="green">Zelená</option>
+                        <option value="yellow">Žltá</option>
+                    </optgroup>
+                    <optgroup label="Lesklá farba">
+                        <option value="red2">červená</option>
+                        <option value="green2">Zelená</option>
+                        <option value="yellow2">Žltá</option>
+                    </optgroup>
+                    
                 </select><br>
                 <button>Odoslať</button>
 
