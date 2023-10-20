@@ -26,6 +26,12 @@
                 <input type="email" name="email" placeholder="E-mail"><br>
                 <input type="date" name="date"><br>
                 <input type="hidden" name="form-type" value="kontakt">
+                <textarea name="message" placeholder="Vaša správa" ></textarea><br>
+                <select name="color" >
+                    <option value="red">červená</option>
+                    <option value="green">Zelená</option>
+                    <option value="yellow">Žltá</option>
+                </select><br>
                 <button>Odoslať</button>
 
             </form>
