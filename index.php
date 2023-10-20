@@ -20,7 +20,11 @@
         <section>
             <h1>Formular</h1>
             <form>
-                <input type="text" name="first_name" placeholder="Meno"><br>
+                <label for="FirstName">Meno</label>
+                <input type="text" name="first_name" id="FirstName"><br>
+                <label for="Weight">Váha</label>
+                <input type="number" name="weight" id="Weight" min="10" max="300"><br>
+                <input type="url" value="https://www." ><br>
                 <input type="text" name="second_name" placeholder="Priezvisko" autofocus required><br> 
                 <input type="password" name="password" placeholder="Heslo" required><br>
                 <input type="email" name="email" placeholder="E-mail"><br>
