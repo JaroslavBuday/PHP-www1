@@ -1,11 +1,7 @@
 <?php
-    $price = 320
-
-
+    
 
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="sk">
@@ -15,8 +11,10 @@
     <title>Cenník našich služieb</title>
 </head>
 <body>
-    <h1>Cenník</h1>
-    <p>Cena našich služieb je <?= $price;   ?> Eur.</p>
-    <!-- (php echo) je to iste ako dat = za znacku  -->
+    <?php   
+    
+    ?>
+    
 </body>
 </html>
+<!-- video 62 -->
