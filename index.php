@@ -27,6 +27,11 @@
                 <input type="date" name="date"><br>
                 <input type="hidden" name="form-type" value="kontakt">
                 <textarea name="message" placeholder="Vaša správa" ></textarea><br>
+                
+                <input type="checkbox" value="tricko">Tričko za 1 Eur <br>
+                <input type="checkbox" value="zalozka">Založka do knihy zdarma <br>
+                <input type="checkbox" value="E-kniha">E-kniha <b>Ako zbohatnúť</b> za 5 Eur <br><br>
+                
                 <select name="color">
                     <optgroup label="Matná farba">
                         <option value="red">červená</option>
