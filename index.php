@@ -21,16 +21,21 @@
             <h1>Formular</h1>
             <form>
                 <input type="text" name="first_name" placeholder="Meno"><br>
-                <input type="text" name="second_name" placeholder="Priezvisko"><br>
-                <input type="password" name="password" placeholder="Heslo"><br>
+                <input type="text" name="second_name" placeholder="Priezvisko" autofocus required><br> 
+                <input type="password" name="password" placeholder="Heslo" required><br>
                 <input type="email" name="email" placeholder="E-mail"><br>
                 <input type="date" name="date"><br>
                 <input type="hidden" name="form-type" value="kontakt">
-                <textarea name="message" placeholder="Vaša správa" ></textarea><br>
+                <textarea name="message" placeholder="Vaša správa" readonly></textarea><br>
                 
+    <!-- readonly - iba na citanie bez moznosti pisnia - pozri textarea,
+        autofocus- po refresnuti stranky bude kurzor v danom policku(priezvisko), 
+        disabled- vypnute (zalozka), 
+        required- nutne vyplnit (e-kniha) -->
+
                 <input type="checkbox" value="tricko">Tričko za 1 Eur <br>
-                <input type="checkbox" value="zalozka">Založka do knihy zdarma <br>
-                <input type="checkbox" value="E-kniha">E-kniha <b>Ako zbohatnúť</b> za 5 Eur <br><br>
+                <input type="checkbox" value="zalozka" disabled>Založka do knihy zdarma <br>
+                <input type="checkbox" value="E-kniha" required>E-kniha <b>Ako zbohatnúť</b> za 5 Eur <br><br>
                 
                 <select name="color">
                     <optgroup label="Matná farba">
