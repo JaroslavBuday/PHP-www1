@@ -39,8 +39,12 @@
                         <option value="green2">Zelená</option>
                         <option value="yellow2">Žltá</option>
                     </optgroup>
-                    
                 </select><br>
+
+                <input type="radio" name="country" value="SR">Slovensko<br>
+                <input type="radio" name="country" value="AU">Rakúsko<br>
+                <input type="radio" name="country" value="DE">Nemecko<br>
+                <!-- ak je name rovnaka hodnota da sa vybrat iba jedna moznost -->
                 <button>Odoslať</button>
 
             </form>
