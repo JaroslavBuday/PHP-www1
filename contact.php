@@ -13,14 +13,7 @@
     <title>Training PHP sites</title>
 </head>
 <body>
-<header>
-        <ul>
-            <li><a href="#">Lorem, ipsum dolor.</a></li>
-            <li><a href="#">Voluptatum, amet eum.</a></li>
-            <li><a href="#">Repudiandae, quibusdam nobis.</a></li>
-        </ul>
-
-    </header>
+    <?php require "assets/header.php"; ?>
     <main>
         <section>
             <h1>Formular</h1>

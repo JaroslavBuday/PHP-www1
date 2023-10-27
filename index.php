@@ -6,14 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="#">Lorem, ipsum dolor.</a></li>
-            <li><a href="#">Voluptatum, amet eum.</a></li>
-            <li><a href="#">Repudiandae, quibusdam nobis.</a></li>
-        </ul>
-
-    </header>
+    <?php require "assets/header.php"; ?>
+    <!-- include nezastavi sa ak je chyba v ceste k suboru -->
+    <!-- require nebude pokracovat dalej , inak je to to iste -->
     <main>
         <h1>Hlavná stránka</h1>
         <a href="contact.php">Formulár</a><br>
