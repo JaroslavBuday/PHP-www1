@@ -13,8 +13,13 @@
     <title>Training PHP sites</title>
 </head>
 <body>
-    <header>
-       
+<header>
+        <ul>
+            <li><a href="#">Lorem, ipsum dolor.</a></li>
+            <li><a href="#">Voluptatum, amet eum.</a></li>
+            <li><a href="#">Repudiandae, quibusdam nobis.</a></li>
+        </ul>
+
     </header>
     <main>
         <section>
@@ -66,7 +71,7 @@
         <a href="index.php">Späť na hlavnú stránku </a>  
     </main>
     <footer>
-
+        <p>&copy; Všetky práva vyhradené, BJ, 2023</p>
     </footer>
 </body>
 </html>
